@@ -13,7 +13,6 @@ h2 {
 }
 
 .card {
-  justify-content: flex-end;
   width: 350px;
   margin: 50px auto;
   border: 1px solid hsl(0, 0%, 7%);
@@ -33,7 +32,9 @@ h2 {
 }
 
 .header-ima {
-  margin: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
   border-radius: 15px;
 }
 
